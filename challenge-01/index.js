@@ -8,7 +8,7 @@ var session = {
 }
 
 if (!session.username || !session.lastMessageHash) {
-  console.log('Usage: node index.js <username> <hash>')
+  console.log('node index.js bigbird88 60b725f10c9c85c70d97880dfe8191b3')
   process.exit(0)
 }
 
