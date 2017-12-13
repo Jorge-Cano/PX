@@ -12,6 +12,17 @@ if (!session.username || !session.lastMessageHash) {
   process.exit(0)
 }
 
+//currently executing the following message in cli
+// from: @theRealElmo
+// ---
+// �w^~)�
+
+//try a combination from the db files & pay attention to their end character
+// file #1 aGVyZSdzIHRoZSBtZXNzYWdl
+// file #2 aGVsbG8sIEkgd291bGQgbGlrZSB5b3UgdG8gam9pbiBteSBwcm9mZXNzaW9uYWwgbmV0d29yayBvbiBsaW5rZWRpbg==
+// file #3 bmV3IHBob25lIHdobyBkaXM/
+// file #4 c2VjcmV0IG1lc3NhZ2UgZnJvbSBtZSB0byB5b3U=
+
 // 1. load the database
 var dbFile = path.join(__dirname, 'db', 'index.json')
 funcs.loadDb(dbFile, function (err, db) {
