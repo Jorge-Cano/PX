@@ -8,7 +8,7 @@ var session = {
 }
 
 if (!session.username || !session.lastMessageHash) {
-  console.log('node index.js bigbird88 60b725f10c9c85c70d97880dfe8191b3')
+  console.log('node index.js bigbird88 aGVyZSdzIHRoZSBtZXNzYWdl')
   process.exit(0)
 }
 
@@ -18,6 +18,7 @@ if (!session.username || !session.lastMessageHash) {
 // �w^~)�
 
 //try a combination from the db files & pay attention to their end character
+// 60b725f10c9c85c70d97880dfe8191b3
 // file #1 aGVyZSdzIHRoZSBtZXNzYWdl
 // file #2 aGVsbG8sIEkgd291bGQgbGlrZSB5b3UgdG8gam9pbiBteSBwcm9mZXNzaW9uYWwgbmV0d29yayBvbiBsaW5rZWRpbg==
 // file #3 bmV3IHBob25lIHdobyBkaXM/
