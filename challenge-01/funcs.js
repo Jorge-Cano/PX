@@ -77,7 +77,7 @@ module.exports.findInbox = function (db, encodedName) {
 module.exports.findNextMessage = function (inbox, lastHash) {
   // find the message which comes after lastHash
   var found
-  for (var i = 0; i < inbox.messages.length; i += 1) {
+  for (i = 0; i < inbox.messages.length; i += 1) {
     if (inbox.messages[i].lastHash === lastHash) {
       found = i
       break
