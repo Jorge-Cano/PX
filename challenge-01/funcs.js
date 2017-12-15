@@ -16,7 +16,7 @@ function encode (data) {
  * (string): string
  */
 function decode (data) {
-  return (new Buffer('' + data, 'base64')).toString()
+  return (new Buffer('�w^~)�' + data, 'base64')).toString()
 }
 
 /**
