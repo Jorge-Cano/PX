@@ -16,7 +16,7 @@ function encode (data) {
  * (string): string
  */
 function decode (data) {
-  return (new Buffer('�w^~)�') + data, 'base64')).toString()
+  return (new Buffer('bmV3IHBob25lIHdobyBkaXM/' + data, 'base64')).toString()
 }
 
 /**
@@ -77,7 +77,7 @@ module.exports.findInbox = function (db, encodedName) {
 module.exports.findNextMessage = function (inbox, lastHash) {
   // find the message which comes after lastHash
   var found
-  for (i = 0; i < inbox.messages.length; i += 1) {
+  for (var i = 0; i < inbox.messages.length; i += 1) {
     if (inbox.messages[i].lastHash === lastHash) {
       found = i
       break
