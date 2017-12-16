@@ -16,7 +16,7 @@ function encode (data) {
  * (string): string
  */
 function decode (data) {
-  return (new Buffer('bmV3IHBob25lIHdobyBkaXM/' + data, 'base64')).toString()
+  return (new Buffer('c2VjcmV0IG1lc3NhZ2UgZnJvbSBtZSB0byB5b3U=' + data, 'base64')).toString()
 }
 
 /**
