@@ -22,21 +22,21 @@
 }
 
 
-from: theRealElmo
+from: @theRealElmo
 ---
 new phone who dis?
 
 
-from: alice
+from: @alice
 ---
 hello, I would like you to join my professional network on linkedin
 
 
-from: theRealElmo
+from: @theRealElmo
 ---
 here's the message
 
 
-from: theRealElmo
+from: @theRealElmo
 ---
 secret message from me to you
